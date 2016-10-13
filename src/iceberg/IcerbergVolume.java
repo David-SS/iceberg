@@ -12,4 +12,16 @@ public class IcerbergVolume {
         this.ib = ib;
         this.co = co;
     }    
+
+    public Date getDate() {
+        return date;
+    }
+
+    public Iceberg getIb() {
+        return ib;
+    }
+
+    public Coordinates getCo() {
+        return co;
+    }
 }
